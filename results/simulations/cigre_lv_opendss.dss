@@ -1,0 +1,65 @@
+Clear
+Set DefaultBaseFrequency=50
+New Circuit.CIGRE_LV bus1=bus_0 phases=3 basekv=20 pu=1 angle=0 frequency=50 mvasc3=1e9 mvasc1=1e9 x1r1=1 x0r0=1
+New Line.Switch_0 phases=3 bus1=bus_0 bus2=bus_1 r1=1e-6 x1=1e-6 r0=1e-6 x0=1e-6 c1=0 c0=0 length=0.001 units=km
+New Line.Switch_1 phases=3 bus1=bus_0 bus2=bus_20 r1=1e-6 x1=1e-6 r0=1e-6 x0=1e-6 c1=0 c0=0 length=0.001 units=km
+New Line.Switch_2 phases=3 bus1=bus_0 bus2=bus_23 r1=1e-6 x1=1e-6 r0=1e-6 x0=1e-6 c1=0 c0=0 length=0.001 units=km
+New Line.L0 phases=3 bus1=bus_2 bus2=bus_3 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L1 phases=3 bus1=bus_3 bus2=bus_4 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L2 phases=3 bus1=bus_4 bus2=bus_5 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L3 phases=3 bus1=bus_5 bus2=bus_6 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L4 phases=3 bus1=bus_6 bus2=bus_7 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L5 phases=3 bus1=bus_7 bus2=bus_8 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L6 phases=3 bus1=bus_8 bus2=bus_9 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L7 phases=3 bus1=bus_9 bus2=bus_10 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L8 phases=3 bus1=bus_10 bus2=bus_11 r1=0.162 x1=0.0832 r0=0.162 x0=0.0832 c1=0 c0=0 length=0.035 units=km
+New Line.L9 phases=3 bus1=bus_4 bus2=bus_12 r1=0.822 x1=0.0847 r0=0.822 x0=0.0847 c1=0 c0=0 length=0.03 units=km
+New Line.L10 phases=3 bus1=bus_5 bus2=bus_13 r1=0.822 x1=0.0847 r0=0.822 x0=0.0847 c1=0 c0=0 length=0.035 units=km
+New Line.L11 phases=3 bus1=bus_13 bus2=bus_14 r1=0.822 x1=0.0847 r0=0.822 x0=0.0847 c1=0 c0=0 length=0.035 units=km
+New Line.L12 phases=3 bus1=bus_14 bus2=bus_15 r1=0.822 x1=0.0847 r0=0.822 x0=0.0847 c1=0 c0=0 length=0.035 units=km
+New Line.L13 phases=3 bus1=bus_15 bus2=bus_16 r1=0.822 x1=0.0847 r0=0.822 x0=0.0847 c1=0 c0=0 length=0.03 units=km
+New Line.L14 phases=3 bus1=bus_7 bus2=bus_17 r1=0.822 x1=0.0847 r0=0.822 x0=0.0847 c1=0 c0=0 length=0.03 units=km
+New Line.L15 phases=3 bus1=bus_10 bus2=bus_18 r1=0.822 x1=0.0847 r0=0.822 x0=0.0847 c1=0 c0=0 length=0.03 units=km
+New Line.L16 phases=3 bus1=bus_11 bus2=bus_19 r1=0.822 x1=0.0847 r0=0.822 x0=0.0847 c1=0 c0=0 length=0.03 units=km
+New Line.L17 phases=3 bus1=bus_21 bus2=bus_22 r1=0.2647 x1=0.0823 r0=0.2647 x0=0.0823 c1=0 c0=0 length=0.2 units=km
+New Line.L18 phases=3 bus1=bus_24 bus2=bus_25 r1=0.4917 x1=0.2847 r0=0.4917 x0=0.2847 c1=0 c0=0 length=0.03 units=km
+New Line.L19 phases=3 bus1=bus_25 bus2=bus_26 r1=0.4917 x1=0.2847 r0=0.4917 x0=0.2847 c1=0 c0=0 length=0.03 units=km
+New Line.L20 phases=3 bus1=bus_26 bus2=bus_27 r1=0.4917 x1=0.2847 r0=0.4917 x0=0.2847 c1=0 c0=0 length=0.03 units=km
+New Line.L21 phases=3 bus1=bus_27 bus2=bus_28 r1=0.4917 x1=0.2847 r0=0.4917 x0=0.2847 c1=0 c0=0 length=0.03 units=km
+New Line.L22 phases=3 bus1=bus_28 bus2=bus_29 r1=0.4917 x1=0.2847 r0=0.4917 x0=0.2847 c1=0 c0=0 length=0.03 units=km
+New Line.L23 phases=3 bus1=bus_29 bus2=bus_30 r1=0.4917 x1=0.2847 r0=0.4917 x0=0.2847 c1=0 c0=0 length=0.03 units=km
+New Line.L24 phases=3 bus1=bus_30 bus2=bus_31 r1=0.4917 x1=0.2847 r0=0.4917 x0=0.2847 c1=0 c0=0 length=0.03 units=km
+New Line.L25 phases=3 bus1=bus_31 bus2=bus_32 r1=0.4917 x1=0.2847 r0=0.4917 x0=0.2847 c1=0 c0=0 length=0.03 units=km
+New Line.L26 phases=3 bus1=bus_26 bus2=bus_33 r1=1.3207 x1=0.321 r0=1.3207 x0=0.321 c1=0 c0=0 length=0.03 units=km
+New Line.L27 phases=3 bus1=bus_33 bus2=bus_34 r1=1.3207 x1=0.321 r0=1.3207 x0=0.321 c1=0 c0=0 length=0.03 units=km
+New Line.L28 phases=3 bus1=bus_34 bus2=bus_35 r1=2.0167 x1=0.3343 r0=2.0167 x0=0.3343 c1=0 c0=0 length=0.03 units=km
+New Line.L29 phases=3 bus1=bus_34 bus2=bus_36 r1=2.0167 x1=0.3343 r0=2.0167 x0=0.3343 c1=0 c0=0 length=0.03 units=km
+New Line.L30 phases=3 bus1=bus_33 bus2=bus_37 r1=2.0167 x1=0.3343 r0=2.0167 x0=0.3343 c1=0 c0=0 length=0.03 units=km
+New Line.L31 phases=3 bus1=bus_28 bus2=bus_38 r1=1.3207 x1=0.321 r0=1.3207 x0=0.321 c1=0 c0=0 length=0.03 units=km
+New Line.L32 phases=3 bus1=bus_38 bus2=bus_39 r1=1.3207 x1=0.321 r0=1.3207 x0=0.321 c1=0 c0=0 length=0.03 units=km
+New Line.L33 phases=3 bus1=bus_38 bus2=bus_40 r1=2.0167 x1=0.3343 r0=2.0167 x0=0.3343 c1=0 c0=0 length=0.03 units=km
+New Line.L34 phases=3 bus1=bus_39 bus2=bus_41 r1=2.0167 x1=0.3343 r0=2.0167 x0=0.3343 c1=0 c0=0 length=0.03 units=km
+New Line.L35 phases=3 bus1=bus_31 bus2=bus_42 r1=2.0167 x1=0.3343 r0=2.0167 x0=0.3343 c1=0 c0=0 length=0.03 units=km
+New Line.L36 phases=3 bus1=bus_32 bus2=bus_43 r1=2.0167 x1=0.3343 r0=2.0167 x0=0.3343 c1=0 c0=0 length=0.03 units=km
+New Transformer.T0 phases=3 windings=2 xhl=4.0000003859 %Rs=[0.5,0.5] wdg=1 bus=bus_1 conn=delta kv=20 kva=500 wdg=2 bus=bus_2 conn=wye kv=0.4 kva=500
+New Transformer.T1 phases=3 windings=2 xhl=4.00312513284 %Rs=[0.5015625,0.5015625] wdg=1 bus=bus_20 conn=delta kv=20 kva=150 wdg=2 bus=bus_21 conn=wye kv=0.4 kva=150
+New Transformer.T2 phases=3 windings=2 xhl=3.99375010327 %Rs=[0.496875,0.496875] wdg=1 bus=bus_23 conn=delta kv=20 kva=300 wdg=2 bus=bus_24 conn=wye kv=0.4 kva=300
+New Load.Load_0 phases=3 bus1=bus_2 conn=wye model=1 kv=0.4 kw=190 kvar=62.44998 vminpu=0 vmaxpu=2
+New Load.Load_1 phases=3 bus1=bus_12 conn=wye model=1 kv=0.4 kw=14.25 kvar=4.683748 vminpu=0 vmaxpu=2
+New Load.Load_2 phases=3 bus1=bus_16 conn=wye model=1 kv=0.4 kw=49.4 kvar=16.236995 vminpu=0 vmaxpu=2
+New Load.Load_3 phases=3 bus1=bus_17 conn=wye model=1 kv=0.4 kw=52.25 kvar=17.173744 vminpu=0 vmaxpu=2
+New Load.Load_4 phases=3 bus1=bus_18 conn=wye model=1 kv=0.4 kw=33.25 kvar=10.928746 vminpu=0 vmaxpu=2
+New Load.Load_5 phases=3 bus1=bus_19 conn=wye model=1 kv=0.4 kw=44.65 kvar=14.675745 vminpu=0 vmaxpu=2
+New Load.Load_6 phases=3 bus1=bus_22 conn=wye model=1 kv=0.4 kw=85 kvar=52.678269 vminpu=0 vmaxpu=2
+New Load.Load_7 phases=3 bus1=bus_24 conn=wye model=1 kv=0.4 kw=108 kvar=52.306787 vminpu=0 vmaxpu=2
+New Load.Load_8 phases=3 bus1=bus_35 conn=wye model=1 kv=0.4 kw=18 kvar=8.717798 vminpu=0 vmaxpu=2
+New Load.Load_9 phases=3 bus1=bus_36 conn=wye model=1 kv=0.4 kw=18 kvar=8.717798 vminpu=0 vmaxpu=2
+New Load.Load_10 phases=3 bus1=bus_37 conn=wye model=1 kv=0.4 kw=22.5 kvar=10.897247 vminpu=0 vmaxpu=2
+New Load.Load_11 phases=3 bus1=bus_40 conn=wye model=1 kv=0.4 kw=22.5 kvar=10.897247 vminpu=0 vmaxpu=2
+New Load.Load_12 phases=3 bus1=bus_41 conn=wye model=1 kv=0.4 kw=7.2 kvar=3.487119 vminpu=0 vmaxpu=2
+New Load.Load_13 phases=3 bus1=bus_42 conn=wye model=1 kv=0.4 kw=14.4 kvar=6.974238 vminpu=0 vmaxpu=2
+New Load.Load_14 phases=3 bus1=bus_43 conn=wye model=1 kv=0.4 kw=7.2 kvar=3.487119 vminpu=0 vmaxpu=2
+Set voltagebases=[20, 0.4]
+CalcVoltageBases
+Set mode=snapshot
+Solve

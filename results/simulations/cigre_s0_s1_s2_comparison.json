@@ -1,0 +1,27 @@
+{
+  "comparison": [
+    {
+      "scenario": "S0 demand without distributed generation",
+      "loss_reduction_vs_s0_percent": 0.0,
+      "undervoltage_reduction_vs_s0_percent": 0.0,
+      "peak_reduction_vs_s0_percent": 0.0
+    },
+    {
+      "scenario": "S1",
+      "loss_reduction_vs_s0_percent": 12.962786208810172,
+      "undervoltage_reduction_vs_s0_percent": 4.390779363336993,
+      "peak_reduction_vs_s0_percent": -1.838241663460742e-13
+    },
+    {
+      "scenario": "S2",
+      "loss_reduction_vs_s0_percent": 21.226751926827824,
+      "undervoltage_reduction_vs_s0_percent": 9.879253567508233,
+      "peak_reduction_vs_s0_percent": 2.04974302951209
+    }
+  ],
+  "battery_checks": {
+    "minimum_soc": 0.0999999999999999,
+    "maximum_soc": 0.9,
+    "simultaneous_charge_discharge_intervals": 0
+  }
+}

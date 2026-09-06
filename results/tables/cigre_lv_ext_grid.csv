@@ -1,0 +1,2 @@
+element_id,name,bus,vm_pu,va_degree,slack_weight,in_service,controllable,s_sc_max_mva,s_sc_min_mva,rx_min,rx_max
+0,,0,1.0,0.0,1.0,True,False,100.0,100.0,1.0,1.0

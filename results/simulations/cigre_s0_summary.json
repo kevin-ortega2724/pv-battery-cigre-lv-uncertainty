@@ -1,0 +1,26 @@
+{
+  "scenario": "S0 demand without distributed generation",
+  "profile_interpretation": "Synthetic dwelling-derived shapes normalized by their 99th percentile and capped at 1.2 as temporal proxy multipliers. CIGRE tabular P is treated as a peak-reference level; load categories and Q/P ratios are preserved.",
+  "intervals": 9600,
+  "days": 100.0,
+  "convergence_percent": 100.0,
+  "algorithm_counts": {
+    "nr": 9600
+  },
+  "minimum_voltage_pu": 0.8952716910449409,
+  "minimum_voltage_timestamp": "2000-04-04 21:30:00",
+  "p01_minimum_voltage_pu": 0.9267256468636704,
+  "intervals_with_undervoltage": 911,
+  "undervoltage_interval_percent": 9.489583333333334,
+  "intervals_with_overvoltage": 0,
+  "maximum_line_loading_percent": 35.477031140693526,
+  "intervals_with_line_overload": 0,
+  "maximum_transformer_loading_percent": 100.86663160310444,
+  "intervals_with_transformer_overload": 1,
+  "peak_grid_import_kw": 742.1451051713296,
+  "peak_grid_import_timestamp": "2000-02-13 20:15:00",
+  "mean_grid_import_kw": 181.05005939176627,
+  "active_line_loss_energy_kwh": 5078.622397424099,
+  "mean_active_line_losses_kw": 2.1160926655933747,
+  "loss_energy_percent_of_import": 1.1687887166137045
+}

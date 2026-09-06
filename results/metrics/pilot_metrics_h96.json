@@ -1,0 +1,45 @@
+{
+  "horizon_steps": 96,
+  "horizon_hours": 24.0,
+  "strategy": "direct",
+  "train_rows": 70684,
+  "validation_rows": 34747,
+  "test_rows": 30394,
+  "feature_count": 29,
+  "median_quantile_model": {
+    "mae_kw": 0.4939565640494001,
+    "rmse_kw": 0.7415667543894978,
+    "nmae_percent_of_mean": 46.526401766449275,
+    "smape_percent": 47.91894333805261,
+    "mase": 1.5691207896939354
+  },
+  "daily_persistence": {
+    "mae_kw": 0.654010743975158,
+    "rmse_kw": 0.9800848111271592,
+    "nmae_percent_of_mean": 61.60211008091685,
+    "smape_percent": 58.071261967844755,
+    "mase": 2.0775548494421603
+  },
+  "weekly_persistence": {
+    "mae_kw": 0.6897763950905097,
+    "rmse_kw": 1.0131731248377172,
+    "nmae_percent_of_mean": 64.97092259266857,
+    "smape_percent": 62.09973734236149,
+    "mase": 2.1911693467614546
+  },
+  "probabilistic": {
+    "pinball_q10_kw": 0.07752230389328606,
+    "pinball_q50_kw": 0.24697828202470004,
+    "pinball_q90_kw": 0.1487189807786753,
+    "picp_percent": 79.0813976442719,
+    "pinaw_percent_of_range": 20.56589995487248,
+    "mean_winkler_score_kw": 2.2624128467196134
+  },
+  "conformal_calibration": {
+    "validation_qhat_kw": -0.0019509876409794513,
+    "picp_percent": 78.67671250904785,
+    "pinaw_percent_of_range": 20.514719796399778,
+    "mean_winkler_score_kw": 2.2626309961752913
+  },
+  "leakage_control": "Load history ends at issue time; target-aligned calendar is known in advance."
+}

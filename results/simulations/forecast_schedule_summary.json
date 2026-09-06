@@ -1,0 +1,18 @@
+{
+  "scenario_count": 100,
+  "seed": 20260904,
+  "first_day_dispatch": "disabled: no prior observations",
+  "forecast": "daily persistence",
+  "uncertainty": "bootstrap of complete historical daily persistence-error blocks",
+  "optimization": "daily linear program with cyclic SOC, energy tariff, peak and throughput terms",
+  "S3": {
+    "charge_energy_kwh": 32650.42921661093,
+    "discharge_energy_kwh": 29467.01236799136,
+    "simultaneous_intervals": 0
+  },
+  "S4": {
+    "charge_energy_kwh": 33268.359830170055,
+    "discharge_energy_kwh": 30024.694746728474,
+    "simultaneous_intervals": 0
+  }
+}

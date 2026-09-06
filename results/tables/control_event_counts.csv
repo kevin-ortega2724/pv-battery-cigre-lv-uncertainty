@@ -1,0 +1,6 @@
+Scenario,undervoltage_intervals,undervoltage_episodes,overvoltage_intervals,overvoltage_episodes,transformer_overload_intervals,transformer_overload_episodes,charge_intervals,charge_episodes,discharge_intervals,discharge_episodes
+S0,911,255,0,0,1,1,0.0,0.0,0.0,0.0
+S1,871,241,0,0,1,1,0.0,0.0,0.0,0.0
+S2,821,235,0,0,1,1,3363.0,234.0,1600.0,100.0
+S3,846,249,0,0,1,1,1640.0,318.0,1606.0,309.0
+S4,873,261,0,0,1,1,1131.0,365.0,1419.0,324.0

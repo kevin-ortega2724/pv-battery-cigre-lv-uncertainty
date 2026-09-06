@@ -1,0 +1,13 @@
+{
+  "activation_day_zero_based": 33,
+  "activation_day": "2000-02-03 00:00:00",
+  "selection_rule": "maximum S2 daily discharged energy (illustration only)",
+  "critical_timestamp": "2000-04-04 21:30:00",
+  "critical_day_zero_based": 94,
+  "series_are_synthetic": true,
+  "completed_operating_cases": 5,
+  "days_per_case": 100,
+  "intervals_per_day": 96,
+  "total_operating_ac_solves": 48000,
+  "independent_scenario_generator_seeds": 1
+}

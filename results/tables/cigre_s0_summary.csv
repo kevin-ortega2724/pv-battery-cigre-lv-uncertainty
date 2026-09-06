@@ -1,0 +1,2 @@
+scenario,intervals,days,convergence_percent,minimum_voltage_pu,p01_minimum_voltage_pu,undervoltage_intervals,undervoltage_percent,overvoltage_intervals,max_line_loading_percent,line_overload_intervals,max_transformer_loading_percent,transformer_overload_intervals,peak_import_kw,mean_import_kw,line_loss_energy_kwh,loss_energy_percent
+S0,9600,100,100,0.895272,0.926726,911,9.489583,0,35.477031,0,100.866632,1,742.145105,181.050059,5078.622397,1.168789

@@ -1,0 +1,26 @@
+{
+  "rows": 2075259,
+  "start": "2006-12-16T17:24:00",
+  "end": "2010-11-26T21:02:00",
+  "duplicate_timestamps": 0,
+  "rows_with_any_numeric_missing": 25979,
+  "missing_by_column": {
+    "Global_active_power": 25979,
+    "Global_reactive_power": 25979,
+    "Voltage": 25979,
+    "Global_intensity": 25979,
+    "Sub_metering_1": 25979,
+    "Sub_metering_2": 25979,
+    "Sub_metering_3": 25979
+  },
+  "gaps_over_one_minute": 0,
+  "largest_gap_minutes": 1.0,
+  "numeric_missing_runs": 71,
+  "largest_numeric_outage_minutes": 7226,
+  "largest_numeric_outage_days": 5.018055555555556,
+  "suspicious": {
+    "negative_active_power_rows": 0,
+    "nonpositive_voltage_rows": 0,
+    "negative_submeter_rows": 0
+  }
+}

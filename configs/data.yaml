@@ -1,0 +1,9 @@
+raw_path: data/raw/household_power_consumption(1).txt
+separator: ";"
+missing_marker: "?"
+timestamp_format: "%d/%m/%Y %H:%M:%S"
+aggregation_minutes: 15
+minimum_observations_per_interval: 14
+expected_rows: 2075259
+seed: 20260904
+

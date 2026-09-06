@@ -1,0 +1,11 @@
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.0
+statsmodels==0.15.0
+matplotlib==3.11.1
+PyYAML==6.0.3
+pytest==9.1.1
+pandapower==3.5.4
+OpenDSSDirect.py==0.9.4
+pymoo==0.6.2

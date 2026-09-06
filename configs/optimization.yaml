@@ -1,0 +1,19 @@
+status: ready_after_cigre_validation
+algorithm: NSGA-II
+seed: 20260904
+implementation: pymoo-0.6.2
+population_size: 80
+generations_pilot: 50
+generations_full: 250
+independent_seeds: 30
+objectives:
+  - expected_energy_cost
+  - active_line_losses
+  - voltage_deviation
+  - transformer_peak
+  - battery_degradation
+constraints:
+  voltage_pu: [0.95, 1.05]
+  soc: [0.10, 0.90]
+  line_loading_percent: 100
+evaluation_policy: common_random_numbers

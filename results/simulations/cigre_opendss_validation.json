@@ -1,0 +1,21 @@
+{
+  "pandapower_version": "3.5.4",
+  "opendssdirect_version": "0.9.4",
+  "both_converged": true,
+  "maximum_absolute_voltage_difference_pu": 4.60610460351063e-06,
+  "mean_absolute_voltage_difference_pu": 2.257501414100093e-06,
+  "worst_bus": 35,
+  "pandapower_minimum_voltage_pu": 0.9122689602538196,
+  "opendss_minimum_voltage_pu": 0.9122735663584232,
+  "pandapower_total_losses_kw": 28.3292200600124,
+  "opendss_total_losses_kw": 28.32721375037575,
+  "absolute_loss_difference_kw": 0.0020063096366484956,
+  "relative_loss_difference_percent": 0.007082120977557253,
+  "translation_assumptions": [
+    "Balanced three-phase positive-sequence comparison.",
+    "CIGRE bus-bus switches represented by negligible-impedance closed lines.",
+    "Transformer total vkr split equally between windings; xhl derived from vk and vkr.",
+    "OpenDSS load voltage fallback disabled (vminpu=0, vmaxpu=2) to match pandapower constant-PQ loads.",
+    "OpenDSS source made effectively ideal because pandapower ext_grid short-circuit fields are ignored in load-flow calculations."
+  ]
+}

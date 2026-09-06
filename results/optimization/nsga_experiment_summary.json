@@ -1,0 +1,14 @@
+{
+  "algorithm": "NSGA-II",
+  "pymoo": "0.6.2",
+  "independent_seeds": 5,
+  "population": 12,
+  "generations": 20,
+  "n_representative_days": 4,
+  "stride_15min_steps": 4,
+  "placement_scope": "residential buses only (R1,R11,R15,R16,R17,R18)",
+  "near_feasible_threshold_constraint_violation": 0.001,
+  "common_random_numbers": true,
+  "aging_model": "Schmalstieg et al. (2014) semi-empirical calendar/cycle functional form, coefficients NOT independently calibrated (proxy only)",
+  "note": "block-bootstrap confidence intervals not yet recomputed after the 2026-09-05 evaluator fixes -- open item"
+}

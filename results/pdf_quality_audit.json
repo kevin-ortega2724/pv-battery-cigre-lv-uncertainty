@@ -1,0 +1,16 @@
+{
+  "SEGAN_manuscript_Elsevier": {
+    "pages": 29,
+    "bytes": 530193,
+    "authors_present": true,
+    "unresolved_reference_markers": false,
+    "empty_pages": []
+  },
+  "SEGAN_appendices_Elsevier": {
+    "pages": 8,
+    "bytes": 252417,
+    "authors_present": true,
+    "unresolved_reference_markers": false,
+    "empty_pages": []
+  }
+}

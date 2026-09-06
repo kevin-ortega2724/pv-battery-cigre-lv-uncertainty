@@ -1,0 +1,4 @@
+scenario,loss_reduction_vs_s0_percent,undervoltage_reduction_vs_s0_percent,peak_reduction_vs_s0_percent
+S0 demand without distributed generation,0.0,0.0,0.0
+S1,12.962786208810172,4.390779363336993,-1.838241663460742e-13
+S2,21.226751926827824,9.879253567508233,2.04974302951209

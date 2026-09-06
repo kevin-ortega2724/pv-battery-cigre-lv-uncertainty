@@ -1,0 +1,74 @@
+{
+  "horizon_steps": 4,
+  "folds": [
+    {
+      "mae_kw": 0.4864503252008522,
+      "rmse_kw": 0.7937191269315931,
+      "nmae_percent_of_mean": 37.51586547054074,
+      "smape_percent": 37.21092745063564,
+      "picp_percent": 80.00926569376881,
+      "pinaw_percent_of_range": 21.716055582684234,
+      "mean_winkler_score_kw": 2.3832120224122226,
+      "fold": 1,
+      "start": "2009-01-01",
+      "end": "2009-03-31 23:59:59",
+      "train_rows": 70684,
+      "validation_rows": 8634
+    },
+    {
+      "mae_kw": 0.41728685083826506,
+      "rmse_kw": 0.6676095915670273,
+      "nmae_percent_of_mean": 41.64216196390148,
+      "smape_percent": 41.15300172418747,
+      "picp_percent": 81.346176436039,
+      "pinaw_percent_of_range": 21.885167736238067,
+      "mean_winkler_score_kw": 1.99112442556006,
+      "fold": 2,
+      "start": "2009-04-01",
+      "end": "2009-06-30 23:59:59",
+      "train_rows": 79318,
+      "validation_rows": 8513
+    },
+    {
+      "mae_kw": 0.34613370321244336,
+      "rmse_kw": 0.5815527511939028,
+      "nmae_percent_of_mean": 45.89202671217066,
+      "smape_percent": 43.557500243727965,
+      "picp_percent": 80.56790968183373,
+      "pinaw_percent_of_range": 21.853645830694614,
+      "mean_winkler_score_kw": 1.6725295720226376,
+      "fold": 3,
+      "start": "2009-07-01",
+      "end": "2009-09-30 23:59:59",
+      "train_rows": 87831,
+      "validation_rows": 8769
+    },
+    {
+      "mae_kw": 0.47646882369724647,
+      "rmse_kw": 0.7526882479549908,
+      "nmae_percent_of_mean": 37.77635434972648,
+      "smape_percent": 38.165721125978166,
+      "picp_percent": 79.86637979843732,
+      "pinaw_percent_of_range": 18.667023885590975,
+      "mean_winkler_score_kw": 2.242446220178509,
+      "fold": 4,
+      "start": "2009-10-01",
+      "end": "2009-12-31 23:59:59",
+      "train_rows": 96600,
+      "validation_rows": 8831
+    }
+  ],
+  "aggregate": {
+    "mae_kw": 0.43155719039084256,
+    "rmse_kw": 0.7036166360898984,
+    "nmae_percent_of_mean": 40.0106569305262,
+    "smape_percent": 40.02106237049414,
+    "picp_percent": 80.4414769620399,
+    "pinaw_percent_of_range": 17.397624268576706,
+    "mean_winkler_score_kw": 2.0720220227289503,
+    "pinball_q10_kw": 0.07301762970978423,
+    "pinball_q50_kw": 0.21577859519542128,
+    "pinball_q90_kw": 0.1341845725631108
+  },
+  "note": "Expanding-window quarterly rolling-origin evaluation confined to 2009; 2010 remains untouched."
+}

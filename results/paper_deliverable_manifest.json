@@ -1,0 +1,18 @@
+{
+  "results\\SEGAN_Overleaf_submission.zip": {
+    "bytes": 390333,
+    "sha256": "da0ca93e97826ee4a32a235ff787cd43b7691798a513c45f16295d9956d1566e"
+  },
+  "results\\SEGAN_Editorial_Manager_sources.zip": {
+    "bytes": 389719,
+    "sha256": "f182458d6894a3529b8a728d1bdf4eae7cdfa5c8a654a518ad072af7a3afeac1"
+  },
+  "output\\pdf\\SEGAN_manuscript_Elsevier.pdf": {
+    "bytes": 530193,
+    "sha256": "0469e4df9c868f046e4a70583383cdc4c099700366b72637dd99912b6c1d836a"
+  },
+  "output\\pdf\\SEGAN_appendices_Elsevier.pdf": {
+    "bytes": 252417,
+    "sha256": "7867ba06e5f1d3ccaa66f239f92972b5503b50e8c8c597cc19374e52fbe3dcd6"
+  }
+}

@@ -1,0 +1,4 @@
+tool,minimum_voltage_pu,total_losses_kw
+pandapower_3.5.4,0.9122689603,28.3292200600
+OpenDSSDirect_0.9.4,0.9122735664,28.3272137504
+difference,0.0000046061,0.0020063096

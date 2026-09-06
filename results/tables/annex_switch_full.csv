@@ -1,0 +1,4 @@
+element_id,bus,element,et,type,closed,name,z_ohm,in_ka
+0,0,1,b,CB,True,S1,0.0,
+1,0,20,b,CB,True,S2,0.0,
+2,0,23,b,CB,True,S3,0.0,

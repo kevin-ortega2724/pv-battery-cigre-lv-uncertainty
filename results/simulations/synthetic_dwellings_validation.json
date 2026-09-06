@@ -1,0 +1,50 @@
+{
+  "label": "synthetic dwelling scenarios derived from measured data",
+  "n_dwellings": 15,
+  "n_days": 100,
+  "daily_energy_kwh": {
+    "median": 27.966458035642034,
+    "iqr": 15.514784805525743
+  },
+  "daily_peak_kw": {
+    "median": 4.179743045042848,
+    "iqr": 2.3290394963553633
+  },
+  "load_factor": {
+    "median": 0.28287938504586263,
+    "iqr": 0.089507491698819
+  },
+  "absolute_ramp_kw": {
+    "median": 0.14970705158082992,
+    "p95": 1.4873632899860758
+  },
+  "lag1_autocorrelation": {
+    "median": 0.8340727228542228,
+    "range": [
+      0.8242318909332939,
+      0.8380166458013465
+    ]
+  },
+  "pairwise_correlation": {
+    "median": 0.455770904170621,
+    "range": [
+      0.27790748559879286,
+      0.6746461452542288
+    ]
+  },
+  "peak_coincidence_factor": 0.67476240762375,
+  "source_comparison": {
+    "measured_single_dwelling_reference": {
+      "daily_energy_kwh_median": 25.812299999999993,
+      "daily_peak_kw_median": 3.8682666666666665,
+      "load_factor_median": 0.28003229202230573,
+      "absolute_ramp_kw_p95": 1.2829333333333333
+    },
+    "synthetic_to_measured_ratios": {
+      "daily_energy_median_ratio": 1.0834547109572583,
+      "daily_peak_median_ratio": 1.0805209167868937,
+      "load_factor_median_ratio": 1.0101670168215104,
+      "ramp_p95_ratio": 1.1593457363225492
+    }
+  }
+}

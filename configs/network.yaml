@@ -1,0 +1,8 @@
+benchmark: cigre_lv
+frequency_hz: 50
+voltage_limits_pu: [0.95, 1.05]
+powerflow:
+  algorithms: [nr, bfsw]
+  tolerance_mva: 1.0e-9
+  max_iteration: 100
+

@@ -1,0 +1,13 @@
+comparison,objective,n_pairs,wilcoxon_stat,wilcoxon_p_raw,rank_biserial,mean_diff,holm_p,reject_at_0.05
+"NSGA-II (retained, full-res daily replay) vs S2",expected_cost,20,0.0,1.9073486328125e-06,1.0,195.0842315278903,2.288818359375e-05,True
+"NSGA-II (retained, full-res daily replay) vs S2",active_losses,20,0.0,1.9073486328125e-06,1.0,30.77391210736236,2.288818359375e-05,True
+"NSGA-II (retained, full-res daily replay) vs S2",transformer_peak,20,58.5,0.08251581328856612,0.44285714285714284,1.4185334121928854,0.24754743986569838,False
+"NSGA-II (retained, full-res daily replay) vs S2",degradation,20,16.0,0.0003223419189453125,0.8476190476190476,0.0007425414915399369,0.001934051513671875,True
+"NSGA-II (retained, full-res daily replay) vs S3",expected_cost,20,0.0,1.9073486328125e-06,1.0,210.04664736682577,2.288818359375e-05,True
+"NSGA-II (retained, full-res daily replay) vs S3",active_losses,20,0.0,1.9073486328125e-06,1.0,25.312784981388855,2.288818359375e-05,True
+"NSGA-II (retained, full-res daily replay) vs S3",transformer_peak,20,80.5,0.360291491883041,0.23333333333333334,1.4185316020963115,0.720582983766082,False
+"NSGA-II (retained, full-res daily replay) vs S3",degradation,20,26.0,0.0019855499267578125,0.7523809523809524,0.00071843986894119,0.009927749633789062,True
+"NSGA-II (retained, full-res daily replay) vs S4",expected_cost,20,0.0,1.9073486328125e-06,1.0,208.91852027290525,2.288818359375e-05,True
+"NSGA-II (retained, full-res daily replay) vs S4",active_losses,20,0.0,1.9073486328125e-06,1.0,23.90642367157297,2.288818359375e-05,True
+"NSGA-II (retained, full-res daily replay) vs S4",transformer_peak,20,99.5,0.8372866008197571,-0.05238095238095238,0.9971580352565603,0.8372866008197571,False
+"NSGA-II (retained, full-res daily replay) vs S4",degradation,20,26.0,0.0019855499267578125,0.7523809523809524,0.0007222472835402805,0.009927749633789062,True

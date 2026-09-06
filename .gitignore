@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.cache/
+.tools/
+tmp/
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+results/logs/*.log
+
+# This repository is the code/reproducibility project only. The LaTeX
+# manuscript, cover letter and paper-specific figures live in a separate,
+# non-public location and are intentionally excluded here.
+paper/
+output/
+
+# Session debug/scratch artifacts from the 2026-09-05 NSGA-II fix pass --
+# not part of the maintained pipeline.
+results/optimization_BROKEN_backup/
+results/optimization_fixed/
+results/SEGAN_Overleaf_submission.zip
+results/SEGAN_Editorial_Manager_sources.zip
+
+# Manuscript-only tooling (LaTeX table/figure export, PDF packaging) --
+# excluded along with paper/ since it has no purpose without it.
+scripts/build_review_pdf.py
+scripts/check_manuscript.py
+scripts/inspect_paper_pdf.py
+scripts/package_complete_project.py
+scripts/package_paper.py
+scripts/build_methodology_assets.py

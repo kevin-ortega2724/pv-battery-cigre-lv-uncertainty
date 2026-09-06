@@ -1,0 +1,8 @@
+horizons_steps: {one_hour: 4, six_hours: 24, twenty_four_hours: 96}
+quantiles: [0.10, 0.50, 0.90]
+split:
+  train_end: "2008-12-31 23:59:59"
+  validation_end: "2009-12-31 23:59:59"
+  test_end: "2010-11-30 23:59:59"
+seed: 20260904
+

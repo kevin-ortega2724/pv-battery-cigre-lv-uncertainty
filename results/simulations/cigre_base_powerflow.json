@@ -1,0 +1,37 @@
+{
+  "benchmark_source": "pandapower.networks.create_cigre_network_lv",
+  "nr": {
+    "converged": true,
+    "buses": 44,
+    "lines": 37,
+    "transformers": 3,
+    "loads": 15,
+    "minimum_voltage_pu": 0.9122689602538196,
+    "maximum_voltage_pu": 1.0,
+    "active_line_losses_kw": 21.821753567053666,
+    "reactive_line_losses_kvar": 8.383799201867845,
+    "maximum_line_loading_percent": 31.716217850395097,
+    "maximum_transformer_loading_percent": 85.25464039713215,
+    "grid_import_kw": 714.9292200600237
+  },
+  "bfsw": {
+    "converged": true,
+    "buses": 44,
+    "lines": 37,
+    "transformers": 3,
+    "loads": 15,
+    "minimum_voltage_pu": 0.9122689628473712,
+    "maximum_voltage_pu": 1.0,
+    "active_line_losses_kw": 21.821752728541057,
+    "reactive_line_losses_kvar": 8.383798872430194,
+    "maximum_line_loading_percent": 31.716217328157516,
+    "maximum_transformer_loading_percent": 85.25463884543815,
+    "grid_import_kw": 714.9292133667507
+  },
+  "cross_algorithm": {
+    "maximum_absolute_voltage_difference_pu": 2.593551595708732e-09,
+    "mean_absolute_voltage_difference_pu": 1.3226456520929665e-09,
+    "line_loss_difference_kw": 8.385126086807304e-07
+  },
+  "validation_note": "Cross-algorithm validation inside pandapower; an independently implemented solver remains required before claiming independent validation."
+}

@@ -1,0 +1,26 @@
+scenario_counts: [50, 100, 250, 500, 1000]
+pv_penetration_percent: [0, 25, 50, 75, 100]
+seed: 20260904
+synthetic_dwellings:
+  count: 15
+  pilot_days: 100
+  common_day_probability: 0.70
+  amplitude_distribution: "lognormal(mean_log=0, sigma_log=0.25), clipped to [0.6, 1.6]"
+  maximum_time_shift_steps: 4
+  time_step_minutes: 15
+  residual_model: "AR(1)"
+  residual_phi: 0.85
+  innovation_standard_deviation_fraction_of_mean: 0.05
+der_pilot:
+  pv_penetration_definition: "installed PV kW / aggregate nominal residential-load kW"
+  pv_penetration_percent: 50
+  pv_profile_source: "documented synthetic clear-sky-shaped profile; not measured weather"
+  residential_load_prefix: "Load R"
+  battery_duration_hours: 2
+  battery_power_to_pv_ratio: 1.0
+  charge_efficiency: 0.95
+  discharge_efficiency: 0.95
+  minimum_soc: 0.10
+  maximum_soc: 0.90
+  initial_soc: 0.10
+  discharge_window_hours: [18, 22]
